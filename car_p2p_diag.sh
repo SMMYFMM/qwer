@@ -7,9 +7,10 @@
 # 前提:     车机已开启无线 ADB，手机能 adb 连通
 #
 # 用法:
-#   bash car_p2p_diag.sh              # 常规采集
-#   bash car_p2p_diag.sh --no-wait    # 跳过 30 秒人工复现等待
-#   bash car_p2p_diag.sh --bugreport  # 额外抓完整 bugreport（慢，体积大）
+#   bash car_p2p_diag.sh                            # 默认连接 10.48.152.188:5555
+#   bash car_p2p_diag.sh 192.168.1.23:5555          # 指定车机地址
+#   bash car_p2p_diag.sh --no-wait                  # 跳过 30 秒人工复现等待
+#   bash car_p2p_diag.sh --bugreport                # 额外抓完整 bugreport（慢，体积大）
 #
 # 结果目录: ~/p2pdiag_<时间戳>/   打包: ~/p2pdiag_<时间戳>.tar.gz
 # ============================================================
@@ -23,13 +24,18 @@ LOG="$OUT/_transcript.txt"
 ADB_TIMEOUT=120
 DO_WAIT=1
 DO_BUGREPORT=0
+DEFAULT_TARGET="10.48.152.188:5555"
+TARGET=""
 
 for arg in "$@"; do
   case "$arg" in
     --no-wait)    DO_WAIT=0 ;;
     --bugreport)  DO_BUGREPORT=1 ;;
+    -*)           ;;
+    *)            TARGET="$arg" ;;
   esac
 done
+TARGET="${TARGET:-$DEFAULT_TARGET}"
 
 say() { echo "$*" | tee -a "$LOG"; }
 c_ok()   { printf '\033[32m%s\033[0m\n' "$*"; }
@@ -90,29 +96,64 @@ fi
 adb start-server >/dev/null 2>&1
 
 # ---------- 1. 设备连接 ----------
-SERIAL=""
-mapfile -t ONLINE < <(adb devices | awk 'NR>1 && $2=="device"{print $1}')
+# 说明: 不再依赖 adb devices 的解析，直接按地址用 get-state 验证，
+#       失败就主动 adb connect，最大限度兼容 Termux / 多 adb 服务端的情况。
+state_of() { adb -s "$1" get-state 2>/dev/null | tr -d '\r' | head -n 1; }
 
-if [ "${#ONLINE[@]}" -eq 0 ]; then
-  c_warn "当前没有已连接的设备。"
-  read -r -p "请输入车机 adb 地址 (形如 192.168.1.23:5555): " TARGET || true
-  if [ -n "${TARGET:-}" ]; then
-    adb connect "$TARGET" >/dev/null 2>&1 || true
-    sleep 2
-    mapfile -t ONLINE < <(adb devices | awk 'NR>1 && $2=="device"{print $1}')
-  fi
+say "adb version:"; adb version 2>&1 | tee -a "$LOG"
+say ""
+say "adb devices 原始输出:"
+adb devices -l 2>&1 | tee -a "$LOG"
+say ""
+
+SERIAL=""
+
+# 1) 目标地址当前是否可用
+if [ "$(state_of "$TARGET")" = "device" ]; then
+  SERIAL="$TARGET"
+  say "目标地址已在线: $TARGET"
+else
+  # 2) 主动连接目标地址（最多重试 3 轮）
+  c_warn "目标地址 $TARGET 未就绪，尝试 adb connect ..."
+  for round in 1 2 3; do
+    adb connect "$TARGET" 2>&1 | tee -a "$LOG"
+    for i in 1 2 3; do
+      sleep 1
+      if [ "$(state_of "$TARGET")" = "device" ]; then
+        SERIAL="$TARGET"
+        break
+      fi
+    done
+    [ -n "$SERIAL" ] && break
+    say "第 $round 轮连接未成功，重试..."
+  done
 fi
 
-if [ "${#ONLINE[@]}" -eq 0 ]; then
-  c_err "仍然没有设备。请确认车机已开启无线调试、密码/端口正确、手机与车机在同一网段。"
-  c_err "也可以手动执行:  adb connect <车机IP>:<端口>  后再重跑本脚本。"
+# 3) 仍不行，就从 adb devices 列表里挑一台 device 状态的
+if [ -z "$SERIAL" ]; then
+  SERIAL=$(adb devices 2>/dev/null | awk 'NR>1 && $2=="device"{print $1; exit}')
+  [ -n "$SERIAL" ] && say "从设备列表中选中: $SERIAL"
+fi
+
+# 4) 给出明确的失败原因
+if [ -z "$SERIAL" ]; then
+  RAW=$(adb devices 2>/dev/null)
+  if echo "$RAW" | grep -qi "unauthorized"; then
+    c_err "设备处于 unauthorized 状态：请在车机屏幕上点「允许 USB 调试」，再重跑。"
+  elif echo "$RAW" | grep -qi "offline"; then
+    c_err "设备处于 offline 状态：请在手机执行 adb disconnect $TARGET && adb connect $TARGET 后重跑。"
+  elif echo "$RAW" | grep -qi "cannot connect to daemon\|failed to start"; then
+    c_err "adb 服务端启动失败：可能有其它 App 占用了 5037 端口，请杀掉其它 adb 相关应用后重试。"
+  else
+    c_err "无法连接到 $TARGET。请检查："
+    c_err "  - 车机无线调试是否仍开启（重启后会关闭）"
+    c_err "  - 手机与车机是否在同一网段（能 ping 通 $TARGET 的 IP）"
+    c_err "  - 端口是否仍是 5555"
+  fi
+  c_err "可手动验证:  adb connect $TARGET  →  adb devices"
   exit 1
 fi
 
-SERIAL="${ONLINE[0]}"
-if [ "${#ONLINE[@]}" -gt 1 ]; then
-  c_warn "检测到多台设备，默认使用第一台: $SERIAL"
-fi
 ADB=(adb -s "$SERIAL")
 say "使用设备: $SERIAL"
 c_ok "已连接: $SERIAL"
