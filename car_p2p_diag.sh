@@ -95,9 +95,7 @@ fi
 
 adb start-server >/dev/null 2>&1
 
-# ---------- 1. 设备连接 ----------
-# 说明: 不再依赖 adb devices 的解析，直接按地址用 get-state 验证，
-#       失败就主动 adb connect，最大限度兼容 Termux / 多 adb 服务端的情况。
+# ---------- 1. 设备选择（不阻塞：检测不到也继续跑）----------
 state_of() { adb -s "$1" get-state 2>/dev/null | tr -d '\r' | head -n 1; }
 
 say "adb version:"; adb version 2>&1 | tee -a "$LOG"
@@ -108,55 +106,45 @@ say ""
 
 SERIAL=""
 
-# 1) 目标地址当前是否可用
+# 1) 目标地址是否为 device
 if [ "$(state_of "$TARGET")" = "device" ]; then
   SERIAL="$TARGET"
-  say "目标地址已在线: $TARGET"
-else
-  # 2) 主动连接目标地址（最多重试 3 轮）
-  c_warn "目标地址 $TARGET 未就绪，尝试 adb connect ..."
-  for round in 1 2 3; do
-    adb connect "$TARGET" 2>&1 | tee -a "$LOG"
-    for i in 1 2 3; do
-      sleep 1
-      if [ "$(state_of "$TARGET")" = "device" ]; then
-        SERIAL="$TARGET"
-        break
-      fi
-    done
-    [ -n "$SERIAL" ] && break
-    say "第 $round 轮连接未成功，重试..."
-  done
+  say "目标地址在线: $TARGET"
 fi
 
-# 3) 仍不行，就从 adb devices 列表里挑一台 device 状态的
+# 2) 列表里任意 device 状态的设备
 if [ -z "$SERIAL" ]; then
   SERIAL=$(adb devices 2>/dev/null | awk 'NR>1 && $2=="device"{print $1; exit}')
-  [ -n "$SERIAL" ] && say "从设备列表中选中: $SERIAL"
+  [ -n "$SERIAL" ] && say "从 adb devices 中选中: $SERIAL"
 fi
 
-# 4) 给出明确的失败原因
+# 3) 列表里有记录但状态异常(offline/unauthorized)，也先拿来跑
 if [ -z "$SERIAL" ]; then
-  RAW=$(adb devices 2>/dev/null)
-  if echo "$RAW" | grep -qi "unauthorized"; then
-    c_err "设备处于 unauthorized 状态：请在车机屏幕上点「允许 USB 调试」，再重跑。"
-  elif echo "$RAW" | grep -qi "offline"; then
-    c_err "设备处于 offline 状态：请在手机执行 adb disconnect $TARGET && adb connect $TARGET 后重跑。"
-  elif echo "$RAW" | grep -qi "cannot connect to daemon\|failed to start"; then
-    c_err "adb 服务端启动失败：可能有其它 App 占用了 5037 端口，请杀掉其它 adb 相关应用后重试。"
-  else
-    c_err "无法连接到 $TARGET。请检查："
-    c_err "  - 车机无线调试是否仍开启（重启后会关闭）"
-    c_err "  - 手机与车机是否在同一网段（能 ping 通 $TARGET 的 IP）"
-    c_err "  - 端口是否仍是 5555"
-  fi
-  c_err "可手动验证:  adb connect $TARGET  →  adb devices"
-  exit 1
+  SERIAL=$(adb devices 2>/dev/null | awk 'NR>1 && NF>=2 {print $1; exit}')
+  [ -n "$SERIAL" ] && c_warn "设备状态异常，仍然继续执行: $SERIAL"
+fi
+
+# 4) 列表完全为空 —— 按你的要求直接对目标地址硬跑，不再中断
+if [ -z "$SERIAL" ]; then
+  SERIAL="$TARGET"
+  c_warn "adb devices 未列出设备，仍按 $SERIAL 继续执行（不再退出）"
 fi
 
 ADB=(adb -s "$SERIAL")
-say "使用设备: $SERIAL"
-c_ok "已连接: $SERIAL"
+
+# 轻量探测：-s 不通但默认设备可用时，自动切换到默认设备
+if [ "$HAVE_TIMEOUT" = 1 ]; then
+  if ! timeout 10 "${ADB[@]}" shell echo __ok__ 2>/dev/null | grep -q __ok__; then
+    if timeout 10 adb shell echo __ok__ 2>/dev/null | grep -q __ok__; then
+      ADB=(adb)
+      c_warn "-s $SERIAL 不通，但 adb 默认设备可用，改用默认设备"
+    else
+      c_warn "shell 探测失败，继续执行；命令报错会原样写入各输出文件"
+    fi
+  fi
+fi
+
+say "使用设备: ${ADB[*]}"
 say ""
 
 # ============================================================
@@ -347,22 +335,37 @@ if [ "$DO_BUGREPORT" = 1 ]; then
 fi
 
 # ============================================================
-# 打包
+# 打包（优先 zip，Android 文件管理器更好处理）
 # ============================================================
-TARBALL="$HOME/$(basename "$OUT").tar.gz"
-tar -czf "$TARBALL" -C "$HOME" "$(basename "$OUT")" 2>/dev/null || c_warn "打包失败，直接发目录即可"
-
-if [ -d /sdcard/Download ] && [ -w /sdcard/Download ]; then
-  cp "$TARBALL" /sdcard/Download/ 2>/dev/null && c_ok "已复制到 /sdcard/Download/"
+BASE="$(basename "$OUT")"
+if command -v zip >/dev/null 2>&1; then
+  ARCHIVE="$HOME/${BASE}.zip"
+  (cd "$HOME" && zip -qr "$ARCHIVE" "$BASE") || c_warn "zip 打包失败"
+else
+  ARCHIVE="$HOME/${BASE}.tar.gz"
+  tar -czf "$ARCHIVE" -C "$HOME" "$BASE" 2>/dev/null || c_warn "打包失败，直接发目录即可"
 fi
+
+# 复制到手机下载目录（Termux 的 ~/storage/downloads 最稳）
+DL_DIR=""
+for d in "$HOME/storage/downloads" "/sdcard/Download" "/storage/emulated/0/Download" "/storage/emulated/0/downloads"; do
+  if [ -d "$d" ] && [ -w "$d" ]; then
+    if cp "$ARCHIVE" "$d/" 2>/dev/null; then
+      DL_DIR="$d"
+      break
+    fi
+  fi
+done
 
 say ""
 c_ok "采集完成"
 say "目录   : $OUT"
-say "打包   : $TARBALL  ($(du -h "$TARBALL" 2>/dev/null | awk '{print $1}'))"
+say "打包   : $ARCHIVE  ($(du -h "$ARCHIVE" 2>/dev/null | awk '{print $1}'))"
+if [ -n "$DL_DIR" ]; then
+  c_ok "已复制到: $DL_DIR/$(basename "$ARCHIVE")"
+else
+  c_warn "未能写入下载目录。请先执行 termux-setup-storage 并允许存储权限，再重跑；或手动执行："
+  c_warn "  cp \"$ARCHIVE\" ~/storage/downloads/"
+fi
 say ""
-say "请优先发送这三个文件："
-say "  1) summary.txt        （摘要，最长 300 行）"
-say "  2) dumpsys_wifi.txt   （P2P 状态机完整信息）"
-say "  3) logcat_p2p.txt     （P2P 相关日志）"
-say "空间允许的话把整个 tar.gz 一起发给我更稳。"
+say "整个压缩包直接发我即可（内含 summary.txt / dumpsys_wifi.txt / logcat_p2p.txt 等全部结果）。"
