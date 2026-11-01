@@ -1,0 +1,1170 @@
+空调悬浮球 属性列表
+生成时间：Sun Nov 01 20:15:28 GMT+08:00 2026
+设备：Allwinner QUAD-CORE T7 p1 / Android 9
+厂商服务：fce_misc_service_hal_property
+
+支持属性总数：552
+格式：ID / 名称 / 类型 / access / areaType / changeMode / 采样率 / 分区
+每个分区附 min / max / 当前值 / status（0=可用，1=不可用，2=错误）
+
+0x11100100 UNKNOWN(0x11100100) type=java.lang.String access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=LS5A2DKR0MA062934 status=0
+0x11100101 UNKNOWN(0x11100101) type=java.lang.String access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=Toy Vehicle status=0
+0x21400960 UNKNOWN(0x21400960) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400961 UNKNOWN(0x21400961) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400962 UNKNOWN(0x21400962) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400963 UNKNOWN(0x21400963) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400964 UNKNOWN(0x21400964) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400965 UNKNOWN(0x21400965) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400966 UNKNOWN(0x21400966) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400967 UNKNOWN(0x21400967) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x15200507 UNKNOWN(0x15200507) type=java.lang.Boolean access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400968 UNKNOWN(0x21400968) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400969 UNKNOWN(0x21400969) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140096A UNKNOWN(0x2140096a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140096C UNKNOWN(0x2140096c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140096D UNKNOWN(0x2140096d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x15200512 UNKNOWN(0x15200512) type=java.lang.Boolean access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21401900 UNKNOWN(0x21401900) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31411101 UNKNOWN(0x31411101) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@d7da6ac status=0
+0x15400500 HVAC_FAN_SPEED type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x31401100 UNKNOWN(0x31401100) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21401901 UNKNOWN(0x21401901) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x35401901 UNKNOWN(0x35401901) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x15400501 HVAC_FAN_DIRECTION type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=1 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x31401102 UNKNOWN(0x31401102) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31411103 UNKNOWN(0x31411103) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x35401902 UNKNOWN(0x35401902) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x2000(8192) min=0 max=0 value=0 status=0
+    area=0x4000(16384) min=0 max=0 value=<null>
+0x35401903 UNKNOWN(0x35401903) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=1 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x21401904 UNKNOWN(0x21401904) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=0 status=0
+    area=0x2(2) min=0 max=0 value=0 status=0
+0x11410105 UNKNOWN(0x11410105) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@c508f75 status=0
+0x35401904 UNKNOWN(0x35401904) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x31411105 UNKNOWN(0x31411105) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@380eb0a status=0
+0x21401905 UNKNOWN(0x21401905) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31411104 UNKNOWN(0x31411104) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x15400505 HVAC_AC_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=2 status=0
+0x21401906 UNKNOWN(0x21401906) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31411107 UNKNOWN(0x31411107) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@93d4f7b status=0
+0x35401906 UNKNOWN(0x35401906) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x11410107 UNKNOWN(0x11410107) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@1748198 status=0
+0x15400506 HVAC_MAX_AC_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=1 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x31401106 UNKNOWN(0x31401106) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x35401907 UNKNOWN(0x35401907) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x21401907 UNKNOWN(0x21401907) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x15400508 HVAC_RECIRC_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=1 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x31411109 UNKNOWN(0x31411109) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x25401908 UNKNOWN(0x25401908) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x35401908 UNKNOWN(0x35401908) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x31411108 UNKNOWN(0x31411108) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x15400509 HVAC_DUAL_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x21401909 UNKNOWN(0x21401909) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31401909 UNKNOWN(0x31401909) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x1540050A HVAC_AUTO_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x2540190A UNKNOWN(0x2540190a) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=1 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x3140190A UNKNOWN(0x3140190a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2540190B UNKNOWN(0x2540190b) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0 max=0 value=1 status=0
+    area=0x2000(8192) min=0 max=0 value=-1 status=0
+    area=0x8000(32768) min=0 max=0 value=-1 status=0
+0x1540050B UNKNOWN(0x1540050b) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x2000(8192) min=0 max=0 value=0 status=0
+0x3141110A UNKNOWN(0x3141110a) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@1a7adf1 status=0
+0x3140110B UNKNOWN(0x3140110b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140190C UNKNOWN(0x2140190c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x1140050D UNKNOWN(0x1140050d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140110D UNKNOWN(0x3140110d) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140190D UNKNOWN(0x2140190d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3141110C UNKNOWN(0x3141110c) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@4caadd6 status=0
+0x2140190E UNKNOWN(0x2140190e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x1140050E UNKNOWN(0x1140050e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140190F UNKNOWN(0x2140190f) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x1540050F UNKNOWN(0x1540050f) type=java.lang.Integer access=0x1 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x15400510 HVAC_POWER_ON type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=1 status=0
+0x15410511 UNKNOWN(0x15410511) type=[Ljava.lang.Integer; access=0x1 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21401911 UNKNOWN(0x21401911) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=33 status=0
+0x25401912 UNKNOWN(0x25401912) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x2000(8192) min=0 max=0 value=0 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x21401913 HVAC_DUAL_STATE type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x15400513 UNKNOWN(0x15400513) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x2000(8192) min=0 max=0 value=0 status=0
+0x15400514 UNKNOWN(0x15400514) type=java.lang.Integer access=0x1 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x4000(16384) min=0 max=0 value=2 status=0
+    area=0x8000(32768) min=0 max=0 value=0 status=0
+0x21401915 UNKNOWN(0x21401915) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21401916 UNKNOWN(0x21401916) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140191B UNKNOWN(0x2140191b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140191C UNKNOWN(0x3140191c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140191D UNKNOWN(0x3140191d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=3 status=0
+0x15600502 HVAC_TEMPERATURE_CURRENT type=java.lang.Float access=0x1 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0.0 max=0.0 value=23.0 status=0
+    area=0x2000(8192) min=0.0 max=0.0 value=25.0 status=0
+    area=0x8000(32768) min=0.0 max=0.0 value=0.0 status=0
+0x15600503 HVAC_TEMPERATURE_SET type=java.lang.Float access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x1000(4096) min=0.0 max=0.0 value=23.0 status=0
+    area=0x2000(8192) min=0.0 max=0.0 value=25.0 status=0
+    area=0x8000(32768) min=0.0 max=0.0 value=0.0 status=0
+0x11600104 UNKNOWN(0x11600104) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=15000.0 status=0
+0x11600106 UNKNOWN(0x11600106) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=150000.0 status=0
+0x3160190B UNKNOWN(0x3160190b) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0.0 status=0
+0x13400BC0 UNKNOWN(0x13400bc0) type=java.lang.Integer access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x10(16) min=0 max=0 value=0 status=0
+    area=0x40(64) min=0 max=0 value=0 status=0
+    area=0x100(256) min=0 max=0 value=0 status=0
+    area=0x400(1024) min=0 max=0 value=0 status=0
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x10000(65536) min=0 max=0 value=0 status=0
+    area=0x20000(131072) min=0 max=0 value=127 status=0
+0x214009C0 UNKNOWN(0x214009c0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x13400BC1 UNKNOWN(0x13400bc1) type=java.lang.Integer access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214009C1 UNKNOWN(0x214009c1) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015D8 UNKNOWN(0x214015d8) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015D9 UNKNOWN(0x214015d9) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015DB UNKNOWN(0x214015db) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015DC UNKNOWN(0x214015dc) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x214015DD UNKNOWN(0x214015dd) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015DE UNKNOWN(0x214015de) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015DF UNKNOWN(0x214015df) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E3 UNKNOWN(0x214015e3) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E4 UNKNOWN(0x214015e4) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E6 UNKNOWN(0x214015e6) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E7 UNKNOWN(0x214015e7) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E8 UNKNOWN(0x214015e8) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015E9 UNKNOWN(0x214015e9) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214009F0 UNKNOWN(0x214009f0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214009F1 UNKNOWN(0x214009f1) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214009F2 UNKNOWN(0x214009f2) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214015FC UNKNOWN(0x214015fc) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214115FE UNKNOWN(0x214115fe) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@4c76857 status=0
+0x21400990 UNKNOWN(0x21400990) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400991 UNKNOWN(0x21400991) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400992 UNKNOWN(0x21400992) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400993 UNKNOWN(0x21400993) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400994 UNKNOWN(0x21400994) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140099C UNKNOWN(0x2140099c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140099D UNKNOWN(0x2140099d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11E00D00 UNKNOWN(0x11e00d00) type=java.lang.Object access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11E00D01 UNKNOWN(0x11e00d01) type=java.lang.Object access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11E00D02 UNKNOWN(0x11e00d02) type=java.lang.Object access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11E00D03 UNKNOWN(0x11e00d03) type=java.lang.Object access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x13200BC4 UNKNOWN(0x13200bc4) type=java.lang.Boolean access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x211015FD UNKNOWN(0x211015fd) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x211015EF UNKNOWN(0x211015ef) type=java.lang.String access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=MCU_C21R_V9.5.V01.46_A_N_20210121 status=0
+0x31402040 UNKNOWN(0x31402040) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31702070 UNKNOWN(0x31702070) type=[B access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402041 UNKNOWN(0x31402041) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402042 UNKNOWN(0x31402042) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402043 UNKNOWN(0x31402043) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402044 UNKNOWN(0x31402044) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402045 UNKNOWN(0x31402045) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402046 UNKNOWN(0x31402046) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31412047 UNKNOWN(0x31412047) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@4fc1f44 status=0
+0x3140204D UNKNOWN(0x3140204d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3141204F UNKNOWN(0x3141204f) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@378382d status=0
+0x3140204E UNKNOWN(0x3140204e) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2940344F UNKNOWN(0x2940344f) type=java.lang.Integer access=0x3 areaType=0x8 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=0 max=0 value=-1 status=0
+    area=0x1(1) min=0 max=0 value=1 status=0
+0x31402051 UNKNOWN(0x31402051) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31412050 UNKNOWN(0x31412050) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@b1bd162 status=0
+0x31402052 UNKNOWN(0x31402052) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21700063 UNKNOWN(0x21700063) type=[B access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402053 UNKNOWN(0x31402053) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31702064 UNKNOWN(0x31702064) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@87032f3 status=0
+0x31402054 UNKNOWN(0x31402054) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F055 UNKNOWN(0x2140f055) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402055 UNKNOWN(0x31402055) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402056 UNKNOWN(0x31402056) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402057 UNKNOWN(0x31402057) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402059 UNKNOWN(0x31402059) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31412058 UNKNOWN(0x31412058) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140205A UNKNOWN(0x3140205a) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140205B UNKNOWN(0x3140205b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F05C UNKNOWN(0x2140f05c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x3140205C UNKNOWN(0x3140205c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140205D UNKNOWN(0x3140205d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140205E UNKNOWN(0x3140205e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x3140205F UNKNOWN(0x3140205f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21100030 UNKNOWN(0x21100030) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402060 UNKNOWN(0x31402060) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400061 UNKNOWN(0x21400061) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402061 UNKNOWN(0x31402061) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21100031 UNKNOWN(0x21100031) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11200402 UNKNOWN(0x11200402) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x2140F062 UNKNOWN(0x2140f062) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31402062 UNKNOWN(0x31402062) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402063 UNKNOWN(0x31402063) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F064 UNKNOWN(0x2140f064) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402065 UNKNOWN(0x31402065) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x11200405 UNKNOWN(0x11200405) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x21400065 UNKNOWN(0x21400065) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400066 UNKNOWN(0x21400066) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402066 UNKNOWN(0x31402066) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F066 UNKNOWN(0x2140f066) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11200407 UNKNOWN(0x11200407) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x31402067 UNKNOWN(0x31402067) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F067 UNKNOWN(0x2140f067) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400068 UNKNOWN(0x21400068) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140F068 UNKNOWN(0x2140f068) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x31402068 UNKNOWN(0x31402068) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402069 UNKNOWN(0x31402069) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F069 UNKNOWN(0x2140f069) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140206A UNKNOWN(0x3140206a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=3 status=0
+0x1120040A UNKNOWN(0x1120040a) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x1120040B UNKNOWN(0x1120040b) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x3140206B UNKNOWN(0x3140206b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140206C UNKNOWN(0x3140206c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140206D UNKNOWN(0x3140206d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F06E UNKNOWN(0x2140f06e) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140206E UNKNOWN(0x3140206e) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140206F UNKNOWN(0x3140206f) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402071 UNKNOWN(0x31402071) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2170F044 UNKNOWN(0x2170f044) type=[B access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140207C UNKNOWN(0x3140207c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140207D UNKNOWN(0x3140207d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3141207F UNKNOWN(0x3141207f) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3141207E UNKNOWN(0x3141207e) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21403400 UNKNOWN(0x21403400) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11400400 UNKNOWN(0x11400400) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=4 status=0
+0x16400B00 UNKNOWN(0x16400b00) type=java.lang.Integer access=0x3 areaType=0x4 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=1 status=0
+    area=0x2(2) min=0 max=0 value=0 status=0
+    area=0x4(4) min=0 max=0 value=1 status=0
+    area=0x8(8) min=0 max=0 value=0 status=0
+    area=0x10(16) min=0 max=0 value=1 status=0
+    area=0x40(64) min=0 max=0 value=1 status=0
+    area=0x10000000(268435456) min=0 max=0 value=0 status=0
+    area=0x20000000(536870912) min=0 max=0 value=0 status=0
+0x11400401 UNKNOWN(0x11400401) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=4 status=0
+0x21403001 UNKNOWN(0x21403001) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402001 UNKNOWN(0x31402001) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x28401902 UNKNOWN(0x28401902) type=java.lang.Integer access=0x1 areaType=0x7 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=0 status=0
+    area=0x2(2) min=0 max=0 value=0 status=0
+0x13400E02 UNKNOWN(0x13400e02) type=java.lang.Integer access=0x1 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21401002 UNKNOWN(0x21401002) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x31403002 UNKNOWN(0x31403002) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x21403402 UNKNOWN(0x21403402) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402002 UNKNOWN(0x31402002) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F002 UNKNOWN(0x2140f002) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21401003 UNKNOWN(0x21401003) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31403003 UNKNOWN(0x31403003) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x21403003 UNKNOWN(0x21403003) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402003 UNKNOWN(0x31402003) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402004 UNKNOWN(0x31402004) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2141F005 UNKNOWN(0x2141f005) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@23debb0 status=0
+0x21401004 UNKNOWN(0x21401004) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31403004 UNKNOWN(0x31403004) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x31402005 UNKNOWN(0x31402005) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31403005 UNKNOWN(0x31403005) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F006 UNKNOWN(0x2140f006) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402006 UNKNOWN(0x31402006) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31401007 UNKNOWN(0x31401007) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21403407 UNKNOWN(0x21403407) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31403007 UNKNOWN(0x31403007) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x31402007 UNKNOWN(0x31402007) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F007 UNKNOWN(0x2140f007) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x11400408 UNKNOWN(0x11400408) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31403008 UNKNOWN(0x31403008) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140F008 UNKNOWN(0x2140f008) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21403408 UNKNOWN(0x21403408) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402008 UNKNOWN(0x31402008) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402009 UNKNOWN(0x31402009) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21403409 UNKNOWN(0x21403409) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31403009 UNKNOWN(0x31403009) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x11400409 IGNITION_STATE type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=4 status=0
+0x3140200A UNKNOWN(0x3140200a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140200B UNKNOWN(0x3140200b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x1440050C UNKNOWN(0x1440050c) type=java.lang.Integer access=0x3 areaType=0x5 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140200C UNKNOWN(0x3140200c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140340C UNKNOWN(0x2140340c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140340D UNKNOWN(0x2140340d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140200D UNKNOWN(0x3140200d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140200E UNKNOWN(0x3140200e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140340E UNKNOWN(0x2140340e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2140340F UNKNOWN(0x2140340f) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140200F UNKNOWN(0x3140200f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F010 UNKNOWN(0x2140f010) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21403410 UNKNOWN(0x21403410) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21403411 UNKNOWN(0x21403411) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F011 UNKNOWN(0x2140f011) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F013 UNKNOWN(0x2140f013) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2110F043 UNKNOWN(0x2110f043) type=java.lang.String access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=LS5A2DKR0MA062934 status=0
+0x21403413 UNKNOWN(0x21403413) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402014 UNKNOWN(0x31402014) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F014 UNKNOWN(0x2140f014) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402015 UNKNOWN(0x31402015) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31401015 UNKNOWN(0x31401015) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402016 UNKNOWN(0x31402016) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402017 UNKNOWN(0x31402017) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F018 UNKNOWN(0x2140f018) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402018 UNKNOWN(0x31402018) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402019 UNKNOWN(0x31402019) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140201A UNKNOWN(0x3140201a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2840191A UNKNOWN(0x2840191a) type=java.lang.Integer access=0x1 areaType=0x7 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=134 status=0
+    area=0x2(2) min=0 max=0 value=118 status=0
+0x3140201B UNKNOWN(0x3140201b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140201C UNKNOWN(0x3140201c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2940341D UNKNOWN(0x2940341d) type=java.lang.Integer access=0x1 areaType=0x8 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=0 max=0 value=0 status=0
+    area=0x1(1) min=0 max=0 value=-1 status=0
+0x3140201D UNKNOWN(0x3140201d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140201E UNKNOWN(0x3140201e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140201F UNKNOWN(0x3140201f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402020 UNKNOWN(0x31402020) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21403421 UNKNOWN(0x21403421) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402021 UNKNOWN(0x31402021) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140F022 UNKNOWN(0x2140f022) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402025 UNKNOWN(0x31402025) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2170F016 UNKNOWN(0x2170f016) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@c4d2a29 status=0
+0x31402026 UNKNOWN(0x31402026) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31603006 UNKNOWN(0x31603006) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0.0 status=0
+0x31402027 UNKNOWN(0x31402027) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402028 UNKNOWN(0x31402028) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402029 UNKNOWN(0x31402029) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x29403429 UNKNOWN(0x29403429) type=java.lang.Integer access=0x1 areaType=0x8 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x3140202A UNKNOWN(0x3140202a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140202B UNKNOWN(0x3140202b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140202C UNKNOWN(0x3140202c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140202D UNKNOWN(0x3140202d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140202E UNKNOWN(0x3140202e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140202F UNKNOWN(0x3140202f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21100060 UNKNOWN(0x21100060) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140F030 UNKNOWN(0x2140f030) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402030 UNKNOWN(0x31402030) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31701000 UNKNOWN(0x31701000) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@469a1ae status=0
+0x31402032 UNKNOWN(0x31402032) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31402033 UNKNOWN(0x31402033) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2170F003 UNKNOWN(0x2170f003) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@ad10b4f status=0
+0x21410032 UNKNOWN(0x21410032) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@a8e12dc status=0
+0x31402034 UNKNOWN(0x31402034) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21703004 UNKNOWN(0x21703004) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@a653fe5 status=0
+0x21100064 UNKNOWN(0x21100064) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21703005 UNKNOWN(0x21703005) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@6b22aba status=0
+0x31402035 UNKNOWN(0x31402035) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21703006 UNKNOWN(0x21703006) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@8bd0d6b status=0
+0x2140F036 UNKNOWN(0x2140f036) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21703007 UNKNOWN(0x21703007) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@e5780c8 status=0
+0x2140F037 UNKNOWN(0x2140f037) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=127 status=0
+0x21100067 UNKNOWN(0x21100067) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140F038 UNKNOWN(0x2140f038) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21403439 UNKNOWN(0x21403439) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140203A UNKNOWN(0x3140203a) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140343A UNKNOWN(0x2140343a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140203B UNKNOWN(0x3140203b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2170F00C UNKNOWN(0x2170f00c) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@72ef561 status=0
+0x3140203C UNKNOWN(0x3140203c) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140203D UNKNOWN(0x3140203d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3170100D UNKNOWN(0x3170100d) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@7c83886 status=0
+0x3140203E UNKNOWN(0x3140203e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x3140203F UNKNOWN(0x3140203f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214000C0 UNKNOWN(0x214000c0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21100091 UNKNOWN(0x21100091) type=java.lang.String access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000C2 UNKNOWN(0x214000c2) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21100C87 UNKNOWN(0x21100c87) type=java.lang.String access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value= status=0
+0x21200C85 UNKNOWN(0x21200c85) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x21200C86 UNKNOWN(0x21200c86) type=java.lang.Boolean access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x214018FD UNKNOWN(0x214018fd) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214018FE UNKNOWN(0x214018fe) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214018FF UNKNOWN(0x214018ff) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400C80 UNKNOWN(0x21400c80) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31412080 UNKNOWN(0x31412080) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402081 UNKNOWN(0x31402081) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400C81 UNKNOWN(0x21400c81) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x31412083 UNKNOWN(0x31412083) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400C82 UNKNOWN(0x21400c82) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400C83 UNKNOWN(0x21400c83) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31412082 UNKNOWN(0x31412082) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402084 UNKNOWN(0x31402084) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400C84 UNKNOWN(0x21400c84) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x31402085 UNKNOWN(0x31402085) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400C88 UNKNOWN(0x21400c88) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400C89 UNKNOWN(0x21400c89) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400C8E UNKNOWN(0x21400c8e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x21400090 UNKNOWN(0x21400090) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400092 UNKNOWN(0x21400092) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400093 UNKNOWN(0x21400093) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400094 UNKNOWN(0x21400094) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400095 UNKNOWN(0x21400095) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400096 UNKNOWN(0x21400096) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400097 UNKNOWN(0x21400097) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400098 UNKNOWN(0x21400098) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400099 UNKNOWN(0x21400099) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009A UNKNOWN(0x2140009a) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009B UNKNOWN(0x2140009b) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009C UNKNOWN(0x2140009c) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009D UNKNOWN(0x2140009d) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009E UNKNOWN(0x2140009e) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140009F UNKNOWN(0x2140009f) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11E00C00 UNKNOWN(0x11e00c00) type=java.lang.Object access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000A0 UNKNOWN(0x214000a0) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000A1 UNKNOWN(0x214000a1) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000A2 UNKNOWN(0x214000a2) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000A3 UNKNOWN(0x214000a3) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214000A4 UNKNOWN(0x214000a4) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214000A5 UNKNOWN(0x214000a5) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x1120030A UNKNOWN(0x1120030a) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x1120030B UNKNOWN(0x1120030b) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x11400303 UNKNOWN(0x11400303) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x13400504 HVAC_DEFROSTER type=java.lang.Integer access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=1 status=0
+    area=0x2(2) min=0 max=0 value=1 status=0
+0x33401905 UNKNOWN(0x33401905) type=java.lang.Integer access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x1(1) min=0 max=0 value=0 status=0
+    area=0x2(2) min=0 max=0 value=0 status=0
+0x11510306 UNKNOWN(0x11510306) type=[Ljava.lang.Long; access=0x1 areaType=0x0 changeMode=0x2 rate=1.000-10.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Long;@f1d1547 status=0
+0x21401320 UNKNOWN(0x21401320) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21410320 UNKNOWN(0x21410320) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@7c7e174 status=0
+0x21401321 UNKNOWN(0x21401321) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21401322 UNKNOWN(0x21401322) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21401323 UNKNOWN(0x21401323) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11600703 UNKNOWN(0x11600703) type=java.lang.Float access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=19.0 status=0
+0x21401324 UNKNOWN(0x21401324) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11600304 UNKNOWN(0x11600304) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x2 rate=0.100-10.000
+    area=0x0(0) min=null max=null value=101.0 status=0
+0x21401325 UNKNOWN(0x21401325) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11600305 UNKNOWN(0x11600305) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x2 rate=1.000-10.000
+    area=0x0(0) min=null max=null value=0.0 status=0
+0x21401326 UNKNOWN(0x21401326) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11600307 UNKNOWN(0x11600307) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=15000.0 status=0
+0x21401327 UNKNOWN(0x21401327) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11600308 UNKNOWN(0x11600308) type=java.lang.Float access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=151.0 status=0
+0x21401328 UNKNOWN(0x21401328) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11610309 UNKNOWN(0x11610309) type=[Ljava.lang.Float; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Float;@a84869d status=0
+0x11600309 UNKNOWN(0x11600309) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=150000.0 status=0
+0x21401329 UNKNOWN(0x21401329) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140132A UNKNOWN(0x2140132a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140132B UNKNOWN(0x2140132b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140132C UNKNOWN(0x2140132c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x1160030C UNKNOWN(0x1160030c) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0.0 status=0
+0x2140132D UNKNOWN(0x2140132d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140132E UNKNOWN(0x2140132e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140132F UNKNOWN(0x2140132f) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21410FD1 UNKNOWN(0x21410fd1) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@5df5712 status=0
+0x21410FD2 UNKNOWN(0x21410fd2) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@68bbee3 status=0
+0x21410FD5 UNKNOWN(0x21410fd5) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@43ba0e0 status=0
+0x21410FD4 UNKNOWN(0x21410fd4) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@5a7ef99 status=0
+0x21410FD7 UNKNOWN(0x21410fd7) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@cd7d25e status=0
+0x21410FD9 UNKNOWN(0x21410fd9) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@cb1663f status=0
+0x21410FD8 UNKNOWN(0x21410fd8) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@869eb0c status=0
+0x31400FDA UNKNOWN(0x31400fda) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31400FDB UNKNOWN(0x31400fdb) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x31400FDC UNKNOWN(0x31400fdc) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400FDD UNKNOWN(0x21400fdd) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x31400FDF UNKNOWN(0x31400fdf) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21700FD6 UNKNOWN(0x21700fd6) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@1feec55 status=0
+0x21401380 UNKNOWN(0x21401380) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21401381 UNKNOWN(0x21401381) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x23400995 UNKNOWN(0x23400995) type=java.lang.Integer access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x10(16) min=0 max=0 value=0 status=0
+    area=0x40(64) min=0 max=0 value=0 status=0
+    area=0x100(256) min=0 max=0 value=0 status=0
+    area=0x400(1024) min=0 max=0 value=0 status=0
+    area=0x1000(4096) min=0 max=0 value=0 status=0
+    area=0x4000(16384) min=0 max=0 value=0 status=0
+    area=0x10000(65536) min=0 max=0 value=0 status=0
+    area=0x20000(131072) min=0 max=0 value=0 status=0
+0x112003F8 UNKNOWN(0x112003f8) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x21400FA0 UNKNOWN(0x21400fa0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400FA1 UNKNOWN(0x21400fa1) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400FA2 UNKNOWN(0x21400fa2) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400FA3 UNKNOWN(0x21400fa3) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21200FD0 UNKNOWN(0x21200fd0) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x21410640 UNKNOWN(0x21410640) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@44ab66a status=0
+0x21410A51 UNKNOWN(0x21410a51) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@760275b status=0
+0x21410A50 UNKNOWN(0x21410a50) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@b50abf8 status=0
+0x2140EE7F UNKNOWN(0x2140ee7f) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21403200 UNKNOWN(0x21403200) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=183 status=0
+0x2140FA00 UNKNOWN(0x2140fa00) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11400E00 UNKNOWN(0x11400e00) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11410A01 UNKNOWN(0x11410a01) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x11410A00 UNKNOWN(0x11410a00) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@f8ef8d1 status=0
+0x11400E01 UNKNOWN(0x11400e01) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21401602 UNKNOWN(0x21401602) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11400A02 UNKNOWN(0x11400a02) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x0 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11400E03 UNKNOWN(0x11400e03) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x11400A03 UNKNOWN(0x11400a03) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=70 status=0
+0x21411604 UNKNOWN(0x21411604) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x3140160B UNKNOWN(0x3140160b) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140FA0C UNKNOWN(0x2140fa0c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2341F012 UNKNOWN(0x2341f012) type=[Ljava.lang.Integer; access=0x3 areaType=0x2 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400A20 UNKNOWN(0x21400a20) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400A21 UNKNOWN(0x21400a21) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A22 UNKNOWN(0x21400a22) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=-1 status=0
+0x21400A23 UNKNOWN(0x21400a23) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A24 UNKNOWN(0x21400a24) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x11600204 UNKNOWN(0x11600204) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=41819.2 status=0
+0x21400A25 UNKNOWN(0x21400a25) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x21400A26 UNKNOWN(0x21400a26) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=10 status=0
+0x11600207 UNKNOWN(0x11600207) type=java.lang.Float access=0x1 areaType=0x0 changeMode=0x1 rate=1.000-10.000
+    area=0x0(0) min=null max=null value=0.0 status=0
+0x21400A27 UNKNOWN(0x21400a27) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A28 UNKNOWN(0x21400a28) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A29 UNKNOWN(0x21400a29) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A2A UNKNOWN(0x21400a2a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A2B UNKNOWN(0x21400a2b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400A2C UNKNOWN(0x21400a2c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A2D UNKNOWN(0x21400a2d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=3 status=0
+0x21400A2E UNKNOWN(0x21400a2e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A2F UNKNOWN(0x21400a2f) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A30 UNKNOWN(0x21400a30) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x21400A31 UNKNOWN(0x21400a31) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A32 UNKNOWN(0x21400a32) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A33 UNKNOWN(0x21400a33) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A34 UNKNOWN(0x21400a34) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21701605 UNKNOWN(0x21701605) type=[B access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@255cf36 status=0
+0x21400A35 UNKNOWN(0x21400a35) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A36 UNKNOWN(0x21400a36) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21701606 UNKNOWN(0x21701606) type=[B access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x21400A37 UNKNOWN(0x21400a37) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A38 UNKNOWN(0x21400a38) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A39 UNKNOWN(0x21400a39) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x25400A3A UNKNOWN(0x25400a3a) type=java.lang.Integer access=0x3 areaType=0x3 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2170FA0B UNKNOWN(0x2170fa0b) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@d6fde37 status=0
+0x2140EEC0 UNKNOWN(0x2140eec0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C0 UNKNOWN(0x214012c0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEC1 UNKNOWN(0x2140eec1) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x214012C1 UNKNOWN(0x214012c1) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C2 UNKNOWN(0x214012c2) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C3 UNKNOWN(0x214012c3) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C4 UNKNOWN(0x214012c4) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEC5 UNKNOWN(0x2140eec5) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012C5 UNKNOWN(0x214012c5) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21E00666 UNKNOWN(0x21e00666) type=java.lang.Object access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140EEC6 UNKNOWN(0x2140eec6) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C6 UNKNOWN(0x214012c6) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012C7 UNKNOWN(0x214012c7) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEC7 UNKNOWN(0x2140eec7) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEC8 UNKNOWN(0x2140eec8) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012C8 UNKNOWN(0x214012c8) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012C9 UNKNOWN(0x214012c9) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012CA UNKNOWN(0x214012ca) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214112CB UNKNOWN(0x214112cb) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@3e08fa4 status=0
+0x2141EECA UNKNOWN(0x2141eeca) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012CC UNKNOWN(0x214012cc) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EECC UNKNOWN(0x2140eecc) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012CD UNKNOWN(0x214012cd) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EECD UNKNOWN(0x2140eecd) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2141EECF UNKNOWN(0x2141eecf) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@f39510d status=0
+0x2140EECE UNKNOWN(0x2140eece) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012CE UNKNOWN(0x214012ce) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214112CF UNKNOWN(0x214112cf) type=[Ljava.lang.Integer; access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@f27a8c2 status=0
+0x214012CF UNKNOWN(0x214012cf) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EED0 UNKNOWN(0x2140eed0) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x214012D0 UNKNOWN(0x214012d0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EED1 UNKNOWN(0x2140eed1) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EED5 UNKNOWN(0x2140eed5) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012DF UNKNOWN(0x214012df) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x214012E2 UNKNOWN(0x214012e2) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400AE4 UNKNOWN(0x21400ae4) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400AE5 UNKNOWN(0x21400ae5) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=115 status=0
+0x214012F0 UNKNOWN(0x214012f0) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EE80 UNKNOWN(0x2140ee80) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A80 UNKNOWN(0x21400a80) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A81 UNKNOWN(0x21400a81) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A82 UNKNOWN(0x21400a82) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=46127 status=0
+0x2140EE82 UNKNOWN(0x2140ee82) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x21400A83 UNKNOWN(0x21400a83) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EE84 UNKNOWN(0x2140ee84) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE85 UNKNOWN(0x2140ee85) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE86 UNKNOWN(0x2140ee86) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2140EE87 UNKNOWN(0x2140ee87) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE89 UNKNOWN(0x2140ee89) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=89 status=0
+0x2141EE88 UNKNOWN(0x2141ee88) type=[Ljava.lang.Integer; access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[Ljava.lang.Integer;@15a26d3 status=0
+0x2140EE8A UNKNOWN(0x2140ee8a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE8B UNKNOWN(0x2140ee8b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EE8C UNKNOWN(0x2140ee8c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE8D UNKNOWN(0x2140ee8d) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE8E UNKNOWN(0x2140ee8e) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE8F UNKNOWN(0x2140ee8f) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140EE90 UNKNOWN(0x2140ee90) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE91 UNKNOWN(0x2140ee91) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x212012F1 UNKNOWN(0x212012f1) type=java.lang.Boolean access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=false status=0
+0x2140EE92 UNKNOWN(0x2140ee92) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE94 UNKNOWN(0x2140ee94) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE95 UNKNOWN(0x2140ee95) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE96 UNKNOWN(0x2140ee96) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE97 UNKNOWN(0x2140ee97) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE98 UNKNOWN(0x2140ee98) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE99 UNKNOWN(0x2140ee99) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE9A UNKNOWN(0x2140ee9a) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE9B UNKNOWN(0x2140ee9b) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EE9C UNKNOWN(0x2140ee9c) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE9D UNKNOWN(0x2140ee9d) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE9E UNKNOWN(0x2140ee9e) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EE9F UNKNOWN(0x2140ee9f) type=java.lang.Integer access=0x1 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2141EEA0 UNKNOWN(0x2141eea0) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2170EE93 UNKNOWN(0x2170ee93) type=[B access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=[B@5690210 status=0
+0x2140EEA4 UNKNOWN(0x2140eea4) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEA5 UNKNOWN(0x2140eea5) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEA6 UNKNOWN(0x2140eea6) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEA7 UNKNOWN(0x2140eea7) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEAC UNKNOWN(0x2140eeac) type=java.lang.Integer access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140EEB4 UNKNOWN(0x2140eeb4) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2140EEB5 UNKNOWN(0x2140eeb5) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EEB6 UNKNOWN(0x2140eeb6) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2140EEB7 UNKNOWN(0x2140eeb7) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=2 status=0
+0x2140EEB9 UNKNOWN(0x2140eeb9) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2141EEB8 UNKNOWN(0x2141eeb8) type=[Ljava.lang.Integer; access=0x2 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=<null>
+0x2140EEBA UNKNOWN(0x2140eeba) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEBB UNKNOWN(0x2140eebb) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=1 status=0
+0x2140EEBC UNKNOWN(0x2140eebc) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEBD UNKNOWN(0x2140eebd) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEBE UNKNOWN(0x2140eebe) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
+0x2140EEBF UNKNOWN(0x2140eebf) type=java.lang.Integer access=0x3 areaType=0x0 changeMode=0x1 rate=0.000-0.000
+    area=0x0(0) min=null max=null value=0 status=0
